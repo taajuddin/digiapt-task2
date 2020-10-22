@@ -312,7 +312,7 @@ class Home extends Component {
             Assign Task(s)
           </Menu.Item>
         ),
-        render: () => <Tab.Pane>Tab 3 Content</Tab.Pane>,
+        
       },
     ];
 
