@@ -6,7 +6,6 @@ import {
   Dropdown,
   Pagination,
   Input,
-  Button,
   Icon,
   Table,
   Image,
@@ -16,7 +15,6 @@ import {
 } from "semantic-ui-react";
 import "./home.css";
 import setting from "../../assets/settings.png";
-import subtaskIcon from "../../assets/Union.png";
 import firstItem from "../../assets/firstItem.png";
 import lastItem from "../../assets/lastItem.png";
 import leftArrow from "../../assets/leftArrow.png";
@@ -143,7 +141,7 @@ class Home extends Component {
                     width={1}
                     textAlign="right"
                   >
-                    <div class="ui  ">Items per page</div>
+                    <div class="ui">Items per page</div>
                   </Grid.Column>
                   <Grid.Column width={1} textAlign="left">
                     <Input className="itemPage" value="10" type="number" />
